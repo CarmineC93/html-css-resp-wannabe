@@ -3,24 +3,33 @@
  ************************************************/
 
 /************************************************
+    DESKTOP VIEW (less than 1200px)
+ ************************************************/
+
+ @media screen and (min-width: 769px) {
+    /* common */
+    .container{
+        width: 100%;
+        max-width: 1200px;
+    }
+ }
+
+/************************************************
     TABLET VIEW (less than 768px)
  ************************************************/
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    /* common */
     .container{
         width: 100%;
     }
- }
+ } 
 
 /************************************************
     MOBILE VIEW (less than 480px)
  ************************************************/
 
  @media screen and (max-width: 480px) {
-    /* common */
-    .container{
-        width: 100%;
-    }
 
     /* first section:lessons */
     .row{
